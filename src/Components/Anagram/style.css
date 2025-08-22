@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: x-large;
+  box-sizing: border-box;
+}
+h2{
+  font-size: xx-large;
+}
+.anagram-checker {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  gap: 30px;
+  padding: 20px;
+  max-width: 600px; 
+  margin: 20px auto; 
+}
+
+.anagram-checker label {
+  display: block;
+  width: 100%;
+}
+
+.anagram-checker input {
+  display: block;
+  margin-top: 4px;
+  padding: 10px;
+  width: 100%;
+}
+
+.anagram-checker button {
+  margin-top: 10px;
+  padding: 10px;
+  width: 100%;
+  cursor: pointer;
+  background-color: #3182CE;
+  color: white;
+  border-radius: 10px;
+  border: none;
+}
