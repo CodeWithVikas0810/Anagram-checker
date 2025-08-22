@@ -13,13 +13,10 @@ function Anagram() {
     str2 = str2.replace(/\s+/g, "").toLowerCase();
     setChecked(true);
 
-    // check length first (quick fail)
     if (str1.length !== str2.length) {
       setIsAnagram(false);
       return;
     }
-
-    // sort letters and compare
 
     if (str1.split("").sort().join("") === str2.split("").sort().join("")) {
       setIsAnagram(true);
